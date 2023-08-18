@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "rollup": "rollup -c",
+    "// '-c' means use configuration file (rollup.config.js)": ""
+  },
+  "// where CommonJS Modules are gonna be:": "",
+  "main": "dist/cjs/index.js",
+  "// where ES6 Modules are gonna be:": "",
+  "module": "dist/esm/index.js",
+  "// output directory (the final package)": "",
+  "files": [
+    "dist"
+  ],
+  "// .d.ts type files gonna be in:": "",
+  "types": "dist/index.d.ts"
+}
